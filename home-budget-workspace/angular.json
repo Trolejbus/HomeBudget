@@ -27,12 +27,15 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "projects/home-budget-mobile-app/src/favicon.ico",
-              "projects/home-budget-mobile-app/src/assets"
+              "projects/home-budget-mobile-app/src/assets",
+              "projects/home-budget-mobile-app/src/manifest.webmanifest"
             ],
             "styles": [
               "projects/home-budget-mobile-app/src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "serviceWorker": true,
+            "ngswConfigPath": "projects/home-budget-mobile-app/ngsw-config.json"
           },
           "configurations": {
             "production": {
@@ -90,7 +93,8 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "projects/home-budget-mobile-app/src/favicon.ico",
-              "projects/home-budget-mobile-app/src/assets"
+              "projects/home-budget-mobile-app/src/assets",
+              "projects/home-budget-mobile-app/src/manifest.webmanifest"
             ],
             "styles": [
               "projects/home-budget-mobile-app/src/styles.scss"
